@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: grey}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+      
+<div class="contrainer">
+  <div class="description">
+    <h1>Learn to code by watching others</h1>
+    <span>
+      See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+      but understanding how developers think is invaluable. 
+    </span>
+  </div>
+  <div class="form-section">
+    <span class='free'><strong>Try it free 7 days</strong> then  $20/mo. thereafter</span>
+  <div class="form">
+    <form class="fill-form">
+    <input type="text" placeholder="First Name" id="cu-name" class="validation">
+    <div class="error onError">First Name cannot be empty</div>
+    <input type="text" placeholder="Last Name" id="cu-last-name" class="validation">
+    <div class="error onError">Last Name cannot be empty</div>
+    <input type="email" placeholder="Email Address" id="cu-email" class="validation">
+    <div class="error onError">Looks like this is not an email</div>
+    <input type="password" placeholder="Password" id="cu-password" class="validation">
+    <div class="error onError">Password cannot be empty</div>
+    <button id="form-button">CLAIN YOUR FREE TRIAL</button>
+  </form>
+    <span class="rules">By clicking the button, you are agreeing to our <span>Terms and Services</span></span>
+  </div>
+    
+  </div>
+</div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Krzysztof Graczyk</a>.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
