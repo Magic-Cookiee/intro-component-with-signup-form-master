@@ -175,4 +175,8 @@ body {
 input {
     padding: 0px 14px;
 }
+
+.error::placeholder{
+    background-position: 175px 5px;
+}
 }

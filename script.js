@@ -16,7 +16,7 @@ sendButton.addEventListener('click', function(event){
         }
         if(inputs[2].value.indexOf("@") == -1 || inputs[2].value.lastIndexOf(".") == -1){
             inputs[2].classList.add('error')
-            inputs[2].setAttribute('placeholder', '');
+            inputs[2].setAttribute('placeholder', ' ');
             onError[2].style.display = 'block'
         } else {
             inputs[2].classList.remove('error')
